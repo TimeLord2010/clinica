@@ -1,0 +1,707 @@
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe.config
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.pdb
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Correios.dll
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\MySql.Data.dll
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Correios.pdb
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdministrador.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimento.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\App.g.cs
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.cache
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.lref
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdministrador.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimento.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.baml
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.g.resources
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.Properties.Resources.resources
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.GenerateResource.cache
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CoreCompileInputs.cache
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CopyComplete
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.exe
+C:\Users\Nobody\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.pdb
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csprojAssemblyReference.cache
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\BlankPage.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ConveniosAdmin.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\DetalhesConsultas.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EncaminharExames.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ExamesMed.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FazerOrcamento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcsAdmin.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcLab.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaAtendidos.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaPessoas.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisarProntuarios.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdmin.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosLabAdmin.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenio.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenioProcedimento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddTipoProcedimento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimentoLab.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarProcedimentoLab.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimentoLabPaciente.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarHistorico.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio2.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PagarConsulta.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ProcedimentoConvenios.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\App.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.cache
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.lref
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.exe
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.pdb
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe.config
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.pdb
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Correios.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\MySql.Data.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Google.Protobuf.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Renci.SshNet.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Correios.pdb
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Dictionary1.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\BlankPage.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ConveniosAdmin.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\DetalhesConsultas.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EncaminharExames.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ExamesMed.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FazerOrcamento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcsAdmin.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcLab.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaAtendidos.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaPessoas.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisarProntuarios.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdmin.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosLabAdmin.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenio.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenioProcedimento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddTipoProcedimento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimentoLab.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarProcedimentoLab.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimentoLabPaciente.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarHistorico.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio2.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PagarConsulta.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ProcedimentoConvenios.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.g.resources
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.Properties.Resources.resources
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.GenerateResource.cache
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CopyComplete
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\System.ValueTuple.dll
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\bin\x86\Debug\System.ValueTuple.xml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EscolherEmpresa.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoAsos.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Campo.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SingleLineField.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AlertaASO.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarEmpresa.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherTipoProntuário.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\LembrarEm.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\Prontuario.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\App.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EscolherEmpresa.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoAsos.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Campo.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AlertaASO.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarEmpresa.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\LembrarEm.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SingleLineField.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherTipoProntuário.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\Windows\Prontuario.baml
+C:\Users\timel\Documents\Visual Studio 2019\Projects\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CoreCompileInputs.cache
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csprojAssemblyReference.cache
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\BlankPage.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ConveniosAdmin.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\DetalhesConsultas.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EncaminharExames.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EscolherEmpresa.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FazerOrcamento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoAsos.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcsAdmin.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcLab.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaAtendidos.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaPessoas.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisarProntuarios.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdmin.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosLabAdmin.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Campo.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SingleLineField.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenio.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenioProcedimento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddTipoProcedimento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimentoLab.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AlertaASO.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarEmpresa.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarProcedimentoLab.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimentoLabPaciente.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarHistorico.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio2.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherTipoProntuário.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\LembrarEm.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PagarConsulta.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ProcedimentoConvenios.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\Prontuario.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\App.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.cache
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.lref
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.exe
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.pdb
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe.config
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.pdb
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Correios.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\MySql.Data.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\System.ValueTuple.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Google.Protobuf.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Renci.SshNet.dll
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Correios.pdb
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\System.ValueTuple.xml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\App.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Dictionary1.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\BlankPage.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ConveniosAdmin.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\DetalhesConsultas.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EncaminharExames.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EscolherEmpresa.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FazerOrcamento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoAsos.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcsAdmin.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcLab.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaAtendidos.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaPessoas.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisarProntuarios.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdmin.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosLabAdmin.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Campo.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SingleLineField.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenio.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenioProcedimento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddTipoProcedimento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimentoLab.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AlertaASO.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarEmpresa.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarProcedimentoLab.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimentoLabPaciente.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarHistorico.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio2.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherTipoProntuário.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\LembrarEm.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PagarConsulta.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ProcedimentoConvenios.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\Prontuario.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.baml
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.g.resources
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.Properties.Resources.resources
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.GenerateResource.cache
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CoreCompileInputs.cache
+C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CopyComplete
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe.config
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.exe
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\WPFClinica.pdb
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Correios.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\MySql.Data.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\System.ValueTuple.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Google.Protobuf.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Renci.SshNet.dll
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Correios.pdb
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\System.ValueTuple.xml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csprojAssemblyReference.cache
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\BlankPage.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ConveniosAdmin.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\DetalhesConsultas.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EncaminharExames.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EscolherEmpresa.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FazerOrcamento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoAsos.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcsAdmin.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcLab.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaAtendidos.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaPessoas.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisarProntuarios.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdmin.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosLabAdmin.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Campo.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SingleLineField.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenio.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenioProcedimento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddTipoProcedimento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimentoLab.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AlertaASO.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarEmpresa.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarProcedimentoLab.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimentoLabPaciente.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarHistorico.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio2.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherTipoProntuário.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\LembrarEm.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PagarConsulta.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ProcedimentoConvenios.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\Prontuario.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\App.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.cache
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica_MarkupCompile.lref
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\App.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Dictionary1.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\MainWindow.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\AgendarConsulta.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\BlankPage.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ConveniosAdmin.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\DetalhesConsultas.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhamentos.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Encaminhar.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EncaminharExames.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\EscolherEmpresa.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FazerOrcamento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\FinalizarPaciente.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Funcionario.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoAsos.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoConsultas.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcsAdmin.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\HistoricoProcLab.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEspera.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ListaEsperaGeral.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\Login.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaAtendidos.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisaPessoas.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PesquisarProntuarios.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\PacientesLab.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosAdmin.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ProcedimentosLabAdmin.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroFuncionarios.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\RegistroPacientes.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Pages\ValoresPorConsulta.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Anexo.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Campo.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\ColunaEncaminhamentos.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Endereco.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\Especializacao.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\InformacoesPessoais.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaAgendamento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhados.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\LinhaEncaminhamentos.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaMedico.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SalaTecnico.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\UserControls\SingleLineField.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenio.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddConvenioProcedimento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddTipoProcedimento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarConsulta.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AdicionarProcedimentoLab.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AlertaASO.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarEmpresa.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastrarPaciente.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroClienteParcial.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CadastroFuncionario.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ConfigurationsLogin.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarEspecializacao.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\CriarProcedimentoLab.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarAtendimento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\AddProcedimentoLabPaciente.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EditarHistorico.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EncaminharLab.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherCadastroParcial.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherConvenio2.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherEspecializacao.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherFuncionario.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherHorario.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherMedico.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherNaoMedico.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherProcedimento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherSala.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\EscolherTipoProntuário.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\LembrarEm.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ListaEsperaMedico.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ObterTexto.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PagarConsulta.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\PesquisarAgenda.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\ProcedimentoConvenios.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\Prontuario.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\Windows\VisualizarAgendamento.baml
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.g.resources
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.Properties.Resources.resources
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.GenerateResource.cache
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CoreCompileInputs.cache
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.csproj.CopyComplete
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.exe
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\obj\x86\Debug\WPFClinica.pdb
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\Converter.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\Data.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\IO.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\Logger.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\SafeDict.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\AcceptCPF.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\ControlsH.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\CookieAwareWebClient.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\DatabaseKeyType.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\DatabaseStructures.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\ErrorCodes.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\ErrorHandler.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\ES.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\FileDownloader.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\ImageH.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\MysqlH.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\Orçamento.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\RegexH.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\TimedEvent.cs
+C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\bin\x86\Debug\Scripts\WindowsSO.cs

@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="WPFClinica.UserControls.InformacoesPessoais"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFClinica.UserControls"
+             xmlns:ucs="clr-namespace:WPFClinica.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="600">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ucs:Campo Grid.ColumnSpan="2" x:Name="NomeTB" Header="Nome"/>
+        <ucs:Campo Grid.Column="2" x:Name="CPFTB" Header="CPF"/>
+        <ucs:Campo Grid.Column="3" x:Name="Contato1TB" Header="Contato"/>
+        <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Text="Sexo" Foreground="Gray" Margin="4" Grid.Column="0" Grid.Row="1"></TextBlock>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10,22,0,0">
+            <RadioButton Content="M" FontSize="15" IsChecked="True" Name="MRB"></RadioButton>
+            <RadioButton Content="F" FontSize="15" Margin="20,0,0,0" Name="FRB"></RadioButton>
+        </StackPanel>
+        <ucs:Campo Grid.Row="1" Grid.Column="1" x:Name="EmailTB" Header="Email"/>
+        <ucs:Campo Grid.Row="1" Grid.Column="2" x:Name="DataNascimentoTB" Header="Data de nascimento"/>
+        <ucs:Campo Grid.Row="1" Grid.Column="3" x:Name="Contato2TB" Header="Contato"/>
+    </Grid>
+</UserControl>

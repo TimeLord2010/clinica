@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFClinica.Windows.ConfigurationsLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Configurações" Height="220" Width="300" WindowStyle="ToolWindow">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock VerticalAlignment="Top">Endereço IP do servidor</TextBlock>
+            <TextBox Margin="0,0,0,10" FontSize="15" Name="IPTB"></TextBox>
+            <TextBlock>Banco de dados</TextBlock>
+            <TextBox Margin="0,0,0,10" FontSize="15" Name="BancoTB"></TextBox>
+            <Button x:Name="CriarB" Click="CriarB_Click">Criar Bando de dados</Button>
+        </StackPanel>
+        <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Padding="3" FontSize="15" Name="SaveB" Click="SaveB_Click">Salvar</Button>
+    </Grid>
+</Window>

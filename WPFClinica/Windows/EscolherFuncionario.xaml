@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPFClinica.Windows.EscolherFuncionario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="EscolherFuncionario" Height="200" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="5">
+            <TextBlock Foreground="Gray">CPF</TextBlock>
+            <TextBox FontSize="15" Name="CPFTB" Margin="0,18,0,0" TextChanged="CPFTB_TextChanged"></TextBox>
+        </Grid>
+        <Grid Grid.Column="1" Margin="5">
+            <TextBlock Foreground="Gray">Nome</TextBlock>
+            <TextBox FontSize="15" Name="NomeTB" Margin="0,18,0,0" TextChanged="NomeTB_TextChanged"></TextBox>
+        </Grid>
+        <DataGrid Grid.Row="1" Grid.ColumnSpan="2" Margin="5" Name="FuncionariosDG"></DataGrid>
+        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5,2,5,2" Margin="5" FontSize="15" Name="OkB" Click="OkB_Click">Ok</Button>
+    </Grid>
+</Window>

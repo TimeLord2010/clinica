@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPFClinica.Windows.EscolherProcedimento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Escolher procedimento" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Margin="5">
+            <TextBlock Foreground="Gray">Nome do procedimento</TextBlock>
+            <TextBox FontSize="15" Margin="0,18,0,0" Name="NomeProcedimentoTB" TextChanged="NomeProcedimentoTB_TextChanged"></TextBox>
+        </Grid>
+        <Grid Margin="5" Grid.Row="1">
+            <DataGrid x:Name="ProcedimentosDG"></DataGrid>
+        </Grid>
+        <Grid Grid.Row="2" Margin="5">
+            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Padding="6,2,6,2" FontSize="15" Name="EscolherB" Click="EscolherB_Click">Escolher</Button>
+        </Grid>
+    </Grid>
+</Window>

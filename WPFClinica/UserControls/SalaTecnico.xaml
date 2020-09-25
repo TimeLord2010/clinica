@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="WPFClinica.UserControls.SalaTecnico"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFClinica.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="400">
+    <MenuItem Header="Sala" Name="SalaMI2" FontSize="15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Foreground="Gray">Nome:</TextBlock>
+            <TextBlock Margin="10,0,0,0" Name="NomeTBL2">???</TextBlock>
+        </StackPanel>
+        <MenuItem Header="Mudar nome" Name="MudarNomeMI2" Click="MudarNomeMI2_Click"></MenuItem>
+    </MenuItem>
+</UserControl>

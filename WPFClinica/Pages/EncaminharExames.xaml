@@ -1,0 +1,70 @@
+﻿<Page x:Class="WPFClinica.Pages.EncaminharExames"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFClinica.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="310" d:DesignWidth="500"
+      Title="EncaminharExames">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="52"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="5">
+            <StackPanel>
+                <TextBlock Foreground="Gray">Tipo</TextBlock>
+                <ComboBox Name="TipoCB" Margin="0,1,0,0" SelectionChanged="TipoCB_SelectionChanged"></ComboBox>
+                <TextBlock Foreground="Gray" Margin="0,10,0,0">Nome</TextBlock>
+                <TextBox FontSize="15" Margin="0,1,0,0" Name="PesquisaProcedimentoTB"></TextBox>
+            </StackPanel>
+            <DataGrid Margin="0,110,0,30" Name="ProcedimentosDG" SelectionChanged="ProcedimentosDG_SelectionChanged"></DataGrid>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                <Button IsEnabled="False" Padding="15,2,15,2" Name="AdicionarB" Click="AdicionarB_Click">Adicionar</Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1" Margin="5">
+            <DataGrid x:Name="AdicionadosDG" SelectionChanged="AdicionadosDG_SelectionChanged" Margin="0,0,0,30"></DataGrid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Button Padding="15,2,15,2" Name="RemoverB" Click="RemoverB_Click">Remover</Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Margin="5">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type StackPanel}">
+                        <Setter Property="Margin" Value="0,0,10,0"/>
+                    </Style>
+                </StackPanel.Resources>
+                <StackPanel>
+                    <TextBlock Foreground="Gray">Débito</TextBlock>
+                    <TextBox FontSize="14" Width="60" Name="DebitoTB">00,0</TextBox>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock Foreground="Gray">Crédito</TextBlock>
+                    <TextBox FontSize="14" Width="60" Name="CreditoTB">00,0</TextBox>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock Foreground="Gray">Dinheiro</TextBlock>
+                    <TextBox FontSize="14" Width="60" Name="DinheiroTB">00,0</TextBox>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2" Margin="5">
+            <TextBlock FontSize="15" FontWeight="SemiBold" VerticalAlignment="Center" Name="PacienteTBL">???</TextBlock>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="1" Margin="5">
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Horizontal">
+                <TextBlock Margin="0,0,5,0" VerticalAlignment="Center" FontWeight="DemiBold">R$</TextBlock>
+                <TextBlock VerticalAlignment="Center" Margin="0,0,10,0" Name="TotalTBL">000,00</TextBlock>
+                <Button Padding="15,2,15,2" Name="EncaminharSalvarB" Click="EncaminharSalvarB_Click">Encaminhar / Salvar</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

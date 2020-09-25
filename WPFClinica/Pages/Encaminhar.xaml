@@ -1,0 +1,57 @@
+﻿<Page x:Class="WPFClinica.Pages.Encaminhar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFClinica.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="800"
+      Title="Encaminhar">
+    <Grid Background="White">
+        <GroupBox Header="Paciente" Margin="5,5,5,120">
+            <Grid Margin="5">
+                <TextBlock Foreground="Gray">Nome</TextBlock>
+                <TextBox x:Name="NomeTB" VerticalAlignment="Top" Margin="0,20,0,0" TextChanged="NomeTB_TextChanged"></TextBox>
+                <TextBlock Foreground="Gray" Margin="0,50,0,0">CPF</TextBlock>
+                <TextBox x:Name="CPFTB" VerticalAlignment="Top" Margin="0,70,0,0" TextChanged="CPFTB_TextChanged"></TextBox>
+                <DataGrid x:Name="PesquisaDG" Margin="0,110,0,40" SelectionChanged="PesquisaDG_SelectionChanged"></DataGrid>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Orientation="Horizontal">
+                    <TextBlock Foreground="Gray">Selecionado:</TextBlock>
+                    <TextBlock Text="Nenhum" Name="SelecionadoTBL" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Horizontal">
+                    <Button Margin="5,0,5,0" Name="DeAgendamentosB" Click="DeAgendamentosB_Click">De agendamentos</Button>
+                    <Button Margin="5,0,0,0" Click="Cadastrar_Click">Cadastrar</Button>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <Grid VerticalAlignment="Bottom" Margin="15">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition />
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock VerticalAlignment="Center">Funcionário:</TextBlock>
+            <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="0,5,0,5" Name="FuncionarioTBL">???</TextBlock>
+            <Button Grid.Column="3" VerticalAlignment="Center" Name="EscolherB" Click="EscolherB_Click">Escolher</Button>
+            <TextBlock Grid.Row="1" VerticalAlignment="Center">Especialização:</TextBlock>
+            <ComboBox Grid.Row="1" Grid.Column="1" Name="EspecializacaoCB" Margin="0,5,0,5"></ComboBox>
+            <CheckBox Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Name="AsoChB">ASO</CheckBox>
+            <TextBlock Grid.Row="2" VerticalAlignment="Center">Encaminhar para</TextBlock>
+            <ComboBox Grid.Row="2" Grid.Column="1" SelectedIndex="0" VerticalAlignment="Center" Name="EncaminharParaCB" Margin="0,5,0,0">
+                <ComboBoxItem Content="Triagem"></ComboBoxItem>
+                <ComboBoxItem Content="Laboratório"></ComboBoxItem>
+                <ComboBoxItem>Exames Diversos</ComboBoxItem>
+                <!--<ComboBoxItem>ASO</ComboBoxItem>-->
+            </ComboBox>
+            <CheckBox Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="PrioridadeChB" Width="100">Prioridade</CheckBox>
+            <Button Grid.Row="2" Grid.Column="4" VerticalAlignment="Center" Name="EncaminharB" Click="EncaminharB_Click">Encaminhar</Button>
+        </Grid>
+    </Grid>
+</Page>

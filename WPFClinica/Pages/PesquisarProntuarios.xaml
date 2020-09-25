@@ -1,0 +1,38 @@
+﻿<Page x:Class="WPFClinica.Pages.PesquisarProntuarios"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFClinica.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="600"
+      Title="PesquisarProntuarios">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="5">
+            <TextBlock Foreground="Gray">Nome paciente</TextBlock>
+            <TextBox Name="NomePacienteTB" TextChanged="NomePacienteTB_TextChanged"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="5">
+            <TextBlock Foreground="Gray">Especialização da ultima consulta</TextBlock>
+            <ComboBox Name="EspecializacaoCB" SelectionChanged="EspecializacaoCB_SelectionChanged"></ComboBox>
+        </StackPanel>
+        <Grid Grid.Row="1" Margin="5" Grid.ColumnSpan="2">
+            <DataGrid x:Name="PacientesDG" SelectionChanged="PacientesDG_SelectionChanged" IsReadOnly="True"></DataGrid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Button FontSize="15" Padding="10,2,10,2" Margin="5" IsEnabled="False" Name="AbrirProntuarioB" Click="AbrirProntuarioB_Click">Abrir</Button>
+                <Button FontSize="15" Padding="10,2,10,2" Margin="5" IsEnabled="False" Name="AtualizarProntuarioB" Click="AtualizarProntuarioB_Click">Atualizar</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

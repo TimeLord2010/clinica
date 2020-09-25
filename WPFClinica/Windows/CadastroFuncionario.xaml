@@ -1,0 +1,105 @@
+﻿<Window x:Class="WPFClinica.Windows.CadastroFuncionario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        xmlns:uc="clr-namespace:WPFClinica.UserControls"
+        mc:Ignorable="d"
+        Title="CadastroFuncionario" Height="600" Width="800">
+    <Grid x:Name="MyGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="2" Name="MyGrid2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="75"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Name="AddImageR" Grid.Column="4" Grid.RowSpan="4" Margin="10" Fill="LightGray" Cursor="Hand" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown"></Rectangle>
+            <Image Name="AddImageI" Grid.RowSpan="4" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Cursor="Hand" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown"></Image>
+            <TextBlock Name="AddImageTBL" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2" Margin="10" Text="Adicionar Image" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Cursor="Hand" MouseLeftButtonDown="Rectangle_MouseLeftButtonDown"></TextBlock>
+            <TextBlock Grid.Row="2" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Text="Funções" Foreground="Gray"></TextBlock>
+            <ScrollViewer Grid.Row="2" Grid.ColumnSpan="4" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Visible">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <CheckBox x:Name="AdministradorChB" Grid.Row="2" VerticalAlignment="Center" Margin="10,10,0,0" FontSize="15" Content="Administrador"></CheckBox>
+                    <CheckBox x:Name="RecepcionistaChB" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="10,10,0,0" FontSize="15" Content="Recepcionista"></CheckBox>
+                    <CheckBox x:Name="MedicoChB" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Margin="10,10,0,0" FontSize="15" Checked="MedicoChB_Checked" Unchecked="MedicoChB_Unchecked">Médico</CheckBox>
+                    <CheckBox x:Name="TecnicoEnfermeiroChB" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" Margin="10,10,0,0" FontSize="15">
+                        <CheckBox.Content>
+                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" FontSize="15" Width="100">Técnico em enfermagem</TextBlock>
+                        </CheckBox.Content>
+                    </CheckBox>
+                    <CheckBox x:Name="FonoaudiologoChB" FontSize="15" VerticalAlignment="Center" Margin="10,10,0,0">Fonoaudiólogo</CheckBox>
+                    <CheckBox x:Name="PsicologoChB" FontSize="15" VerticalAlignment="Center" Margin="10,10,0,0">Psicologo</CheckBox>
+                    <CheckBox x:Name="NutricionistaChB" FontSize="15" VerticalAlignment="Center" Margin="10,10,0,0">Nutricionista</CheckBox>
+                    <CheckBox x:Name="DentistaChB" FontSize="15" VerticalAlignment="Center" Margin="10,10,0,0">Dentista</CheckBox>
+                </StackPanel>
+            </ScrollViewer>
+
+            <TextBlock Grid.Row="4" Grid.Column="4" Margin="10" Text="Salário" Foreground="Gray"></TextBlock>
+            <TextBox x:Name="SalarioTB" VerticalAlignment="Top" Margin="10,25,10,0" Grid.Row="4" Grid.Column="4" FontSize="15"></TextBox>
+            <TextBlock Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="5" Grid.Column="4" Text="Observações" Foreground="Gray"></TextBlock>
+            <TextBox x:Name="ObservacoesTB" Grid.Row="5" Grid.RowSpan="2" Grid.Column="4" Margin="10,25,10,10" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" FontSize="15"></TextBox>
+            <GroupBox Grid.Row="5" Grid.RowSpan="2" Grid.ColumnSpan="2" Header="Anexos" Margin="10,5,10,10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Button Content="Adicionar anexo" FontSize="15" Padding="3" Margin="10" Name="AdicionarAnexo" Click="AdicionarAnexo_Click"></Button>
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <StackPanel x:Name="AnexosSP" Orientation="Vertical"></StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </GroupBox>
+            <GroupBox Grid.Row="5" Grid.RowSpan="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="10,5,10,10" Header="Especifições do médico" IsEnabled="False" Name="EspecificacoesMedicoGB">
+                <ScrollViewer>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="CRM" Foreground="Gray" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
+                        <TextBox x:Name="CRMTB" VerticalAlignment="Top" Margin="10,25,10,0" FontSize="15"></TextBox>
+                        <TextBlock Text="% por consulta" Foreground="Gray" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1"></TextBlock>
+                        <TextBox x:Name="PorcentagemConsultaTB" VerticalAlignment="Top" Grid.Column="1" Margin="10,25,10,0" FontSize="15"></TextBox>
+                        <Button Grid.Row="1" Grid.ColumnSpan="2" Content="Adicionar especialização" Margin="10" FontSize="15" Name="AdicionarEspecializacao" Click="AdicionarEspecializacao_Click"></Button>
+                        <TextBlock Grid.Row="2" Text="Especializações:" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
+                        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Margin="10,20,10,10" Orientation="Vertical" Name="EspecializacoesSP"></StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </GroupBox>
+            <TextBlock Foreground="Gray" Grid.Row="7" Margin="10,0,0,0">Senha</TextBlock>
+            <PasswordBox x:Name="SenhaPB" FontSize="15" Grid.Row="7" Grid.ColumnSpan="2" VerticalAlignment="Top" Margin="10,20,10,0"></PasswordBox>
+            <TextBlock Foreground="Gray" Grid.Row="7" Grid.Column="2" Margin="10,0,0,0">Confirmar Senha</TextBlock>
+            <PasswordBox x:Name="ConfirmarSenhaPB" FontSize="15" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Top" Margin="10,20,10,0"></PasswordBox>
+            <CheckBox IsChecked="True" Grid.Column="4" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Name="AtivoCB">Ativo</CheckBox>
+        </Grid>
+        <TextBlock Grid.Row="1" Margin="8" FontSize="15" TextWrapping="Wrap" Name="MessageTBL"></TextBlock>
+        <Button Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="15" Padding="3" Margin="10" Name="CadastrarB" Click="CadastrarB_Click">Cadastrar</Button>
+    </Grid>
+</Window>

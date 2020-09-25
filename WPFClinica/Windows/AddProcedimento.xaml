@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPFClinica.Windows.AddProcedimento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Adicionar Procedimento" Height="240" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="5">
+            <TextBlock Foreground="Gray">Tipo</TextBlock>
+            <ComboBox SelectedIndex="0" FontSize="15" Name="TipoCB" Margin="0,2,0,0"></ComboBox>
+            <TextBlock Foreground="Gray" Margin="0,10,0,0">Procedimento</TextBlock>
+            <TextBox FontSize="15" Name="ProcedimentoTB"></TextBox>
+            <TextBlock Foreground="Gray" Margin="0,10,0,0">Valor</TextBlock>
+            <TextBox FontSize="15" Name="ValorTB"></TextBox>
+            <Button Margin="0,10,0,0" Padding="2" FontSize="15" Name="AdicionarB" Click="AdicionarB_Click">Adicionar</Button>
+        </StackPanel>
+    </Grid>
+</Window>

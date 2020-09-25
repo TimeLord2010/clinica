@@ -1,0 +1,97 @@
+﻿<Page x:Class="WPFClinica.Pages.Funcionario"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFClinica.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="700"
+      Title="Funcionario">
+    <Grid Background="White">
+        <Menu VerticalAlignment="Top" FontSize="15" x:Name="MyMenu" Background="White">
+            <MenuItem Header="Administrador" Name="AdministradorMI">
+                <MenuItem Header="Funcionários">
+                    <MenuItem Header="Registro" Name="RegistroMI" Click="RegistroMI_Click"></MenuItem>
+                    <MenuItem Header="Medicos">
+                        <MenuItem Header="Especializações" Name="ValorConsultaMI" Click="ValorConsultaMI_Click"></MenuItem>
+                        <MenuItem Header="Consultas" Name="ConsultasMI" Click="ConsultasMI_Click" IsEnabled="False"></MenuItem>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Laboratório">
+                    <MenuItem Header="Convenios" Name="ConveniosMI" Click="ConveniosMI_Click"></MenuItem>
+                    <MenuItem Header="Procedimentos" Name="ProcedimentosLabAdminMI" Click="ProcedimentosLabAdminMI_Click"></MenuItem>
+                    <MenuItem Header="Histórico" Name="HistoricoProcLabMI" Click="HistoricoProcLabMI_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Cadastro de empresas" Name="CadastroEmpresasAdminMI" Click="CadastroEmpresasAdminMI_Click">
+                </MenuItem>
+                <MenuItem Header="Exames de Imagem" Name="ProcedimentosAdminMI">
+                    <MenuItem Header="Registro" Name="RegistroProcedimentosMI" Click="RegistroProcedimentosMI_Click"></MenuItem>
+                    <MenuItem Header="Histórico" Name="HistoricoProcedimentosMI" Click="HistoricoProcedimentosMI_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Banco de dados">
+                    <MenuItem Header="Pessoas" Name="PessoasMI" Click="PessoasMI_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Financeiro">
+                    
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Recepcionista" Name="RecepcionistaMI">
+                <MenuItem Header="Consultas">
+                    <MenuItem Header="Agendar" Name="AgendarMI" Click="AgendarMI_Click"></MenuItem>
+                    <MenuItem Header="Agendamentos" Name="AgendamentosMI" Click="AgendamentosMI_Click"></MenuItem>
+                    <MenuItem Header="Histórico" Name="HistoricoMI" Click="HistoricoMI_Click"></MenuItem>
+                    <MenuItem Header="ASOSs" Name="ASOsMI" Click="ASOsMI_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Historicos">
+                    <MenuItem Header="Laboratório" Name="HistoricoLaboratorioRecepcionistaMI" Click="HistoricoLaboratorioRecepcionistaMI_Click"></MenuItem>
+                    <MenuItem Header="Exames de Imagem" Name="HistoricoExamesImageRecepcionistaMI" Click="HistoricoExamesImageRecepcionistaMI_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Pacientes">
+                    <MenuItem Header="Encaminhar" Name="EncaminharMI" Click="EncaminharMI_Click"></MenuItem>
+                    <MenuItem Header="Registro" Name="RegistroPacientesMI" Click="RegistroPacientesMI_Click"></MenuItem>
+                    <MenuItem Header="Lista de espera" Name="ListaEsperaMI" Click="ListaEsperaMI_Click"></MenuItem>
+                    <!--<MenuItem Header="Finalizar" Name="FinalizarMI" Click="FinalizarMI_Click"></MenuItem>-->
+                    <MenuItem Header="Fazer orçamento" Name="FazerOrcamentoMI" Click="FazerOrcamentoMI_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Procedimentos" Name="ProcedimentosMI" Click="ProcedimentosLabMI_Click"></MenuItem>
+                <MenuItem Header="Cadastro de empresas" Name="CadastroEmpresaMI" Click="CadastroEmpresaMI_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Médico" Name="MedicoMI">
+                <MenuItem Header="Sala" FontSize="15" Name="SalaMI" SubmenuOpened="SalaMI_SubmenuOpened">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Foreground="Gray">Nome:</TextBlock>
+                        <TextBlock Margin="10,0,0,0" Name="NomeTBL">???</TextBlock>
+                    </StackPanel>
+                    <MenuItem Header="Mudar nome" Name="MudarNomeMI" Click="MudarNomeMI_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Lista de espera" Name="ListaEsperaMedicoMI" Click="ListaEsperaMedicoMI_Click"></MenuItem>
+                <MenuItem Header="Prontuários" Name="ProntuariosMI" Click="ProntuariosMI_Click"></MenuItem>
+                <MenuItem Header="Atendimentos" Name="AtendimentosMI" Click="AtendimentosMI_Click" IsEnabled="False" Visibility="Collapsed"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Laboratório" Name="TecnicoEnfermagemMI">
+                <MenuItem Header="Sala" Name="SalaMI2" FontSize="15" SubmenuOpened="SalaMI2_SubmenuOpened">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Foreground="Gray">Nome:</TextBlock>
+                        <TextBlock Margin="10,0,0,0" Name="NomeTBL2">???</TextBlock>
+                    </StackPanel>
+                    <MenuItem Header="Mudar nome" Name="MudarNomeMI2" Click="MudarNomeMI2_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Lista de Pacientes" Name="ListaPacientesMI" Click="ListaPacientesMI_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Triagem" Name="TriagemMI" Click="TriagemMI_Click"></MenuItem>
+            <MenuItem Header="Lista de espera" Name="ListaDeEsperaGeralMI" Click="ListaDeEsperaGeralMI_Click"></MenuItem>
+            <MenuItem Header="Mais">
+                <MenuItem Header="Checar por atualizações" Name="CheckUpdatesMI" Click="CheckUpdatesMI_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Conta" Visibility="Hidden">
+                <MenuItem Header="Informação"></MenuItem>
+                <MenuItem Header="Ponto">
+                    <MenuItem Header="Abrir"></MenuItem>
+                    <MenuItem Header="Fechar"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Log out" Foreground="Red" Name="LogOutMI" Click="LogOutMI_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Frame Margin="0,22,0,0" Name="MyFrame" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Page>

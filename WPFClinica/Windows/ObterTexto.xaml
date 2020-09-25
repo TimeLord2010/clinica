@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPFClinica.Windows.ObterTexto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="ObterTexto" Height="100" Width="400" WindowStyle="ToolWindow">
+    <StackPanel Margin="5" Orientation="Horizontal" VerticalAlignment="Top" Name="MyStackPanel" Loaded="MyStackPanel_Loaded">
+        <StackPanel Orientation="Vertical">
+            <TextBlock x:Name="TituloTBL">Titulo</TextBlock>
+            <TextBox x:Name="EntradaTB" Width="300" FontSize="15"></TextBox>
+        </StackPanel>
+        <Button VerticalAlignment="Center" Margin="10,0,0,0" Padding="5,3,5,3" Name="IrB" Click="IrB_Click">IR</Button>
+    </StackPanel>
+</Window>

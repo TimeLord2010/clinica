@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPFClinica.Windows.AddConvenio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Criar Convênio" Height="130" Width="400" WindowStyle="ToolWindow">
+    <Grid>
+        <StackPanel Margin="5">
+            <TextBlock Foreground="Gray">Nome</TextBlock>
+            <TextBox FontSize="15" Name="ConvenioTB"></TextBox>
+            <Button FontSize="15" x:Name="CriarB" Click="CriarB_Click" Margin="0,10,0,0">Criar</Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,76 @@
+﻿<Page x:Class="WPFClinica.Pages.HistoricoProcLab"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFClinica.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" Title="HistoricoProcLab">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="31"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Margin="0,5,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Procedimento</TextBlock>
+                <TextBox FontSize="15" Name="ProcedimentoTB" TextChanged="ProcedimentoTB_TextChanged"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Convenio</TextBlock>
+                <TextBox FontSize="15" Name="ConvenioTB" TextChanged="ConvenioTB_TextChanged"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Inicio</TextBlock>
+                <TextBox FontSize="15" Name="InicioTB" TextChanged="InicioTB_TextChanged"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Fim</TextBlock>
+                <TextBox FontSize="15" Name="FimTB" TextChanged="FimTB_TextChanged"></TextBox>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="5,0,5,0">
+                <TextBlock Style="{StaticResource HeaderS}">Nome do paciente</TextBlock>
+                <TextBox Name="NomePacienteTB" TextChanged="NomePacienteTB_TextChanged"></TextBox>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Margin="5">
+            <DataGrid Name="ProcedimentosDG" IsReadOnly="True" ContextMenuOpening="ProcedimentosDG_ContextMenuOpening">
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Deletar" Name="DeleteMI" Click="DeleteMI_Click"></MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="2" Margin="5,0,0,5">
+            <StackPanel VerticalAlignment="Bottom" Orientation="Horizontal">
+                <TextBlock FontSize="15">Total:</TextBlock>
+                <TextBlock FontSize="15" Margin="5,0,5,0" FontWeight="DemiBold">R$</TextBlock>
+                <TextBlock FontSize="15" FontWeight="DemiBold" Name="TotalTBL">000,00</TextBlock>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Margin="0,0,5,0" Orientation="Horizontal">
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type CheckBox}">
+                        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                        <Setter Property="Margin" Value="0,0,10,0"></Setter>
+                        <Setter Property="FontSize" Value="15"></Setter>
+                    </Style>
+                </StackPanel.Resources>
+                <!--<CheckBox></CheckBox>-->
+                <CheckBox Name="IncluirNaoPagosChB" Checked="IncluirNaoPagosChB_Checked" Unchecked="IncluirNaoPagosChB_Unchecked">Incluir não pagos</CheckBox>
+                <Button FontSize="15" Padding="10,2,10,2" Name="ImprimirB" Click="ImprimirB_Click">Imprimir</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,44 @@
+﻿<Window x:Class="WPFClinica.Windows.Prontuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        xmlns:ucs="clr-namespace:WPFClinica.UserControls"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d" Title="Prontuario" Height="450" Width="800" Closing="Window_Closing">
+    <ScrollViewer>
+        <ScrollViewer.Resources>
+            <sys:Double x:Key="Hei">65</sys:Double>
+            <sys:Double x:Key="Exp">120</sys:Double>
+        </ScrollViewer.Resources>
+        <StackPanel Margin="10">
+            <TextBlock HorizontalAlignment="Center" FontWeight="Bold" FontSize="20">Triagem</TextBlock>
+            <ucs:SingleLineField Header="Pressão arterial" x:Name="PressaoArterialTB"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Glicemia" x:Name="GlicemiaTB"></ucs:SingleLineField>
+            <GroupBox Header="Perímetro cefálico">
+                <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ucs:SingleLineField Header="Comprimento" Margin="0,0,5,0" x:Name="ComprimentoTB"></ucs:SingleLineField>
+                <ucs:SingleLineField Grid.Column="1" Header="Altura" Margin="5,0,0,0" x:Name="AlturaTB"></ucs:SingleLineField>
+            </Grid>
+            </GroupBox>
+            <ucs:SingleLineField Header="Peso" x:Name="PesoTB"></ucs:SingleLineField>
+            <TextBlock HorizontalAlignment="Center" FontWeight="Bold" FontSize="20" Margin="0,10,0,0">Prontuário</TextBlock>
+            <ucs:SingleLineField Header="Nome" IsReadOnly="True" x:Name="NomeTB"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Idade" IsReadOnly="True" x:Name="IdadeTB"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Data" x:Name="DataTB"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Queixas" x:Name="QueixasTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="História da doença atual" x:Name="HistoriaDoencaTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Medicações em uso" x:Name="MedicacoesUsoTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Histórico Familiar" x:Name="HistoricoFamiliarTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Exame físico" x:Name="ExameFisicoTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Exames" x:Name="ExamesTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Hipóteses diaginósticas" x:Name="HipotesesTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+            <ucs:SingleLineField Header="Conduta" x:Name="CondutaTB" Height="{StaticResource ResourceKey=Hei}" ExpandUpTo="{StaticResource ResourceKey=Exp}"></ucs:SingleLineField>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

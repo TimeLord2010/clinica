@@ -1,0 +1,3 @@
+﻿[2020/8/18 20:31]: System.Exception: Fila não pode ter seu objeto correspondente.
+[2020/8/18 20:31]: Stack Trace:    at WPFClinica.Pages.Encaminhar.get_Fila() in C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Pages\Encaminhar.xaml.cs:line 73
+   at WPFClinica.Pages.Encaminhar.EncaminharB_Click(Object sender, RoutedEventArgs e) in C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Pages\Encaminhar.xaml.cs:line 147.

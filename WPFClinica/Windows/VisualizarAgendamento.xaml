@@ -1,0 +1,55 @@
+﻿<Window x:Class="WPFClinica.Windows.VisualizarAgendamento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Visualizar Agendamento" Height="400" Width="400" WindowStyle="ToolWindow">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock FontSize="18" FontWeight="DemiBold">Paciente</TextBlock>
+                <TextBlock Margin="0,15,0,0">CPF:</TextBlock>
+                <TextBlock Margin="0,10,0,0">Nome:</TextBlock>
+                <TextBlock Margin="0,10,0,0">Contato:</TextBlock>
+                <TextBlock FontSize="18" FontWeight="DemiBold" Margin="0,10,0,0">Médico</TextBlock>
+                <TextBlock Margin="0,15,0,0">CPF:</TextBlock>
+                <TextBlock Margin="0,10,0,0">Nome:</TextBlock>
+                <TextBlock FontSize="18" FontWeight="DemiBold" Margin="0,10,0,0">Data</TextBlock>
+                <TextBlock Margin="0,15,0,0">Data:</TextBlock>
+                <TextBlock Margin="0,10,0,0">Horário:</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBlock Margin="0,40,0,0" Name="PacienteCPFTBL">???</TextBlock>
+                <TextBlock x:Name="PacienteNomeTBL" Margin="0,10,0,0">???</TextBlock>
+                <TextBlock x:Name="PacienteContatoTBL" Margin="0,10,0,0">???</TextBlock>
+                <TextBlock Margin="0,50,0,0" Name="MedicoCPFTBL">???</TextBlock>
+                <TextBlock Margin="0,10,0,0" Name="MedicoNomeTBL">???</TextBlock>
+                <TextBlock x:Name="DataTBL" Margin="0,48,0,0">???</TextBlock>
+                <TextBlock x:Name="HorarioTBL" Margin="0,10,0,0">???</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBox x:Name="PacienteCPFTB" Margin="0,38,0,0" Visibility="Hidden"></TextBox>
+                <TextBox x:Name="PacienteNomeTB" Margin="0,8,0,0" Visibility="Hidden"></TextBox>
+                <TextBox x:Name="PacienteContatoTB" Margin="0,8,0,0" Visibility="Hidden"></TextBox>
+                <TextBox x:Name="MedicoCPFTB" Margin="0,48,0,0" Visibility="Hidden"></TextBox>
+                <TextBox x:Name="MedicoNomeTB" Margin="0,8,0,0" Visibility="Hidden"></TextBox>
+                <TextBox x:Name="DataTB" Margin="0,48,0,0" Visibility="Hidden"></TextBox>
+                <TextBox x:Name="HorarioTB" Margin="0,8,0,0" Visibility="Hidden"></TextBox>
+            </StackPanel>
+        </Grid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Bottom">
+            <Button IsEnabled="False" Margin="5" FontSize="15" Padding="3" Name="EditarB" Click="EditarB_Click">Editar</Button>
+            <Button Margin="5" FontSize="15" Padding="3" Name="OkB" Click="OkB_Click">Ok</Button>
+        </StackPanel>
+    </Grid>
+</Window>

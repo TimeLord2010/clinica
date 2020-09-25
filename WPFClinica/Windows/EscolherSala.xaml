@@ -1,0 +1,73 @@
+﻿<Window x:Class="WPFClinica.Windows.EscolherSala"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Escolher sala" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Margin="0,5,0,5">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Funcionário</TextBlock>
+                <TextBox Margin="0,18,0,0" VerticalAlignment="Top" FontSize="15" Name="FuncionarioTB" TextChanged="FuncionarioTB_TextChanged"></TextBox>
+            </Grid>
+            <Grid Grid.Column="1" Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Sala</TextBlock>
+                <TextBox Margin="0,18,0,0" VerticalAlignment="Top" FontSize="15" Name="SalaTB" TextChanged="SalaTB_TextChanged"/>
+            </Grid>
+            <Grid Grid.Column="2" Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Função</TextBlock>
+                <ComboBox Margin="0,18,0,0" Name="FuncaoCB" SelectedIndex="0" SelectionChanged="FuncaoCB_SelectionChanged">
+                    <ComboBoxItem>Triagem</ComboBoxItem>
+                    <ComboBoxItem>Consultório</ComboBoxItem>
+                    <ComboBoxItem>Laboratório</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="0" Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Status</TextBlock>
+                <ComboBox Margin="0,18,0,0" SelectedIndex="2" Name="StatusCB" SelectionChanged="StatusCB_SelectionChanged">
+                    <ComboBoxItem>Em atendimento</ComboBoxItem>
+                    <ComboBoxItem>Ocupado</ComboBoxItem>
+                    <ComboBoxItem>Livre</ComboBoxItem>
+                    <ComboBoxItem>Aguardando</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1" Margin="5,0,5,0">
+                <TextBlock Foreground="Gray">Especialização</TextBlock>
+                <ComboBox Margin="0,18,0,0" Name="EspecializacaoCB" SelectionChanged="EspecializacaoCB_SelectionChanged"></ComboBox>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Margin="0,0,5,0">
+                <TextBlock Foreground="Gray">Salas</TextBlock>
+                <DataGrid Margin="0,18,0,0" IsReadOnly="True" Name="SalasDG" SelectionChanged="SalasDG_SelectionChanged"></DataGrid>
+            </Grid>
+            <Grid Grid.Column="1" Margin="5,0,0,0">
+                <TextBlock Foreground="Gray">Especializações do médico</TextBlock>
+                <DataGrid Margin="0,18,0,0" IsReadOnly="True" Name="EspecializacoesDG"></DataGrid>
+            </Grid>
+        </Grid>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Right" Orientation="Horizontal" Margin="0,0,5,0">
+            <Button VerticalAlignment="Center" Padding="5,2,5,2" FontSize="15" IsEnabled="False" Name="OkB" Click="OkB_Click">Ok</Button>
+        </StackPanel>
+    </Grid>
+</Window>

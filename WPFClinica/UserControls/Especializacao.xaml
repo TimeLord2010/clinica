@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="WPFClinica.UserControls.Especializacao"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFClinica.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="250">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="40"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ComboBox Margin="10" VerticalAlignment="Center" SelectedIndex="0" Name="EspecializacaoCB"></ComboBox>
+        <Image Grid.Column="2" HorizontalAlignment="Right" Source="/Resources/red-x.png" Cursor="Hand" MouseDown="Image_MouseDown"></Image>
+    </Grid>
+</UserControl>

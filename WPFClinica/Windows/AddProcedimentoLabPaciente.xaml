@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPFClinica.Windows.AddProcedimentoLabPaciente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Adicionar procedimento laboratorial" Height="280" Width="400">
+    <Grid>
+        <StackPanel Margin="5">
+            <TextBlock Foreground="Gray">Paciente</TextBlock>
+            <TextBox FontSize="15" IsEnabled="False" Name="NomePacienteTB">???</TextBox>
+            <TextBlock Foreground="Gray" Margin="0,10,0,0">Procedimento</TextBlock>
+            <Grid>
+                <TextBox FontSize="15" Margin="0,0,70,0" Name="NomeProcedimentoTB" IsEnabled="False">???</TextBox>
+                <Button HorizontalAlignment="Right" Padding="6,2,6,2" FontSize="15" Name="MudarProcedimentoB" Click="MudarProcedimentoB_Click">Mudar</Button>
+            </Grid>
+            <TextBlock Foreground="Gray" Margin="0,10,0,0">Convênio</TextBlock>
+            <Grid>
+                <TextBox FontSize="15" Margin="0,0,70,0" IsEnabled="False" Name="NomeConvenioTB">???</TextBox>
+                <Button HorizontalAlignment="Right" Name="MudarConvênioB" Click="MudarConvênioB_Click" Padding="6,2,6,2" FontSize="15">Mudar</Button>
+            </Grid>
+            <TextBlock Foreground="Gray" Margin="0,10,0,0">Valor</TextBlock>
+            <TextBox FontSize="15" IsEnabled="False" Name="ValorTB">???</TextBox>
+        </StackPanel>
+        <Button VerticalAlignment="Bottom" Margin="5" Padding="5,2,5,2" FontSize="15" Name="AdicionarB" Click="AdicionarB_Click">Adicionar</Button>
+    </Grid>
+</Window>

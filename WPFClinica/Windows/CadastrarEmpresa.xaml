@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPFClinica.Windows.CadastrarEmpresa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="CadastrarEmpresa" Height="260" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource {x:Type TextBlock}}">
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+        <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource {x:Type TextBox}}">
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0">Nome*</TextBlock>
+        <TextBox Grid.Column="1" Name="NomeEmpresaTB"></TextBox>
+        <TextBlock Grid.Row="1">CNPJ</TextBlock>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="CNPJ_TB"></TextBox>
+        <TextBlock Grid.Row="2">Observação</TextBlock>
+        <TextBox Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" x:Name="ObservacaoTB" AcceptsReturn="True" AcceptsTab="True"></TextBox>
+        <TextBlock Grid.Row="3"></TextBlock>
+        <TextBlock Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="10,10,110,10" TextWrapping="Wrap" Name="MessageTBL"></TextBlock>
+        <Button Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" Name="CadastrarB" Click="CadastrarB_Click">Cadastrar</Button>
+    </Grid>
+</Window>

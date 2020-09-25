@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WPFClinica.UserControls.Anexo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFClinica.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="200">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="40"></ColumnDefinition>
+            <ColumnDefinition Width="40"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text=".ext" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" Foreground="Blue" Name="ExtentionTBL"></TextBlock>
+        <TextBlock VerticalAlignment="Center" Grid.Column="1" FontSize="15" Margin="5" TextWrapping="Wrap" Name="TitleTBL"></TextBlock>
+        <Image Grid.Column="2" Source="/Resources/download.png" Cursor="Hand" Name="DownloadI" MouseLeftButtonDown="DownloadI_MouseLeftButtonDown" Margin="4"></Image>
+        <Image Grid.Column="3" Source="/Resources/red-x.png" Cursor="Hand" Name="RemoveI" MouseLeftButtonDown="RemoveI_MouseLeftButtonDown"></Image>
+    </Grid>
+</UserControl>

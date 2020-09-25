@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WPFClinica.UserControls.SalaMedico"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFClinica.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="200">
+    <MenuItem Header="Sala" FontSize="15" Name="SalaMI">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Foreground="Gray">Nome:</TextBlock>
+                <TextBlock Margin="10,0,0,0" Name="NomeTBL" Foreground="Gray"></TextBlock>
+            </StackPanel>
+        <MenuItem Header="Mudar nome" Name="MudarNomeMI" Click="MudarNomeMI_Click"></MenuItem>
+        <MenuItem Header="Função">
+            <RadioButton Name="TriagemRB" Content="Triagem" Checked="TriagemRB_Checked"></RadioButton>
+            <RadioButton x:Name="ConsultorioRB" Content="Consultório" Checked="TriagemRB_Checked"></RadioButton>
+            <RadioButton x:Name="LaboratioRB" Content="Laboratório" Checked="TriagemRB_Checked"></RadioButton>
+        </MenuItem>
+    </MenuItem>
+</UserControl>

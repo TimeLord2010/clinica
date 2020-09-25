@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{428F25BC-0400-4C32-B354-BEBD225ABCAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WPFClinica</RootNamespace>
+    <AssemblyName>WPFClinica</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>preview</LangVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Untitled.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Correios, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Correios-Api.1.1.1\lib\portable-net45+win\Correios.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAPICodePack-Core.1.1.0.0\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAPICodePack-Shell.1.1.0.0\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAPICodePack-Shell.1.1.0.0\lib\Microsoft.WindowsAPICodePack.ShellExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Installer for Windows\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="..\..\..\..\Languages\C#\Scripts\Converter.cs">
+      <Link>Scripts\Converter.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\..\..\..\Languages\C#\Scripts\Data.cs">
+      <Link>Scripts\Data.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\..\..\..\Languages\C#\Scripts\IO.cs">
+      <Link>Scripts\IO.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\..\..\..\Languages\C#\Scripts\Logger.cs">
+      <Link>Scripts\Logger.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\..\..\..\Languages\C#\Scripts\SafeDict.cs">
+      <Link>Scripts\SafeDict.cs</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Pages\AgendarConsulta.xaml.cs">
+      <DependentUpon>AgendarConsulta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BlankPage.xaml.cs">
+      <DependentUpon>BlankPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ConveniosAdmin.xaml.cs">
+      <DependentUpon>ConveniosAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DetalhesConsultas.xaml.cs">
+      <DependentUpon>DetalhesConsultas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Encaminhar.xaml.cs">
+      <DependentUpon>Encaminhar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EncaminharExames.xaml.cs">
+      <DependentUpon>EncaminharExames.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EscolherEmpresa.xaml.cs">
+      <DependentUpon>EscolherEmpresa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FazerOrcamento.xaml.cs">
+      <DependentUpon>FazerOrcamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FinalizarPaciente.xaml.cs">
+      <DependentUpon>FinalizarPaciente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Funcionario.xaml.cs">
+      <DependentUpon>Funcionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HistoricoAsos.xaml.cs">
+      <DependentUpon>HistoricoAsos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HistoricoConsultas.xaml.cs">
+      <DependentUpon>HistoricoConsultas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HistoricoProcsAdmin.xaml.cs">
+      <DependentUpon>HistoricoProcsAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HistoricoProcLab.xaml.cs">
+      <DependentUpon>HistoricoProcLab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ListaEspera.xaml.cs">
+      <DependentUpon>ListaEspera.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ListaEsperaGeral.xaml.cs">
+      <DependentUpon>ListaEsperaGeral.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PesquisaAtendidos.xaml.cs">
+      <DependentUpon>PesquisaAtendidos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PesquisaPessoas.xaml.cs">
+      <DependentUpon>PesquisaPessoas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PesquisarProntuarios.xaml.cs">
+      <DependentUpon>PesquisarProntuarios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PacientesLab.xaml.cs">
+      <DependentUpon>PacientesLab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ProcedimentosAdmin.xaml.cs">
+      <DependentUpon>ProcedimentosAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ProcedimentosLabAdmin.xaml.cs">
+      <DependentUpon>ProcedimentosLabAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RegistroFuncionarios.xaml.cs">
+      <DependentUpon>RegistroFuncionarios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RegistroPacientes.xaml.cs">
+      <DependentUpon>RegistroPacientes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ValoresPorConsulta.xaml.cs">
+      <DependentUpon>ValoresPorConsulta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\AbstractClasses\Profissoes.cs" />
+    <Compile Include="Scripts\AcceptCPF.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\ControlsH.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\CookieAwareWebClient.cs">
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\DatabaseKeyType.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\DatabaseStructures.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\DB\Administradores.cs" />
+    <Compile Include="Scripts\DB\AgendamentoFuncionario.cs" />
+    <Compile Include="Scripts\DB\Agendamentos.cs" />
+    <Compile Include="Scripts\DB\AgendamentoPaciente.cs" />
+    <Compile Include="Scripts\DB\AgendamentoTempPaciente.cs" />
+    <Compile Include="Scripts\DB\Anexos.cs" />
+    <Compile Include="Scripts\DB\Asos.cs" />
+    <Compile Include="Scripts\DB\ConsultasRecebidas.cs" />
+    <Compile Include="Scripts\DB\Consultas_FormaPagamento.cs" />
+    <Compile Include="Scripts\DB\Convenios.cs" />
+    <Compile Include="Scripts\DB\Database.cs" />
+    <Compile Include="Scripts\DB\Dentistas.cs" />
+    <Compile Include="Scripts\DB\Empresa.cs" />
+    <Compile Include="Scripts\DB\Enderecos.cs" />
+    <Compile Include="Scripts\DB\EnumStrings.cs" />
+    <Compile Include="Scripts\DB\Especializacoes.cs" />
+    <Compile Include="Scripts\DB\Fonoaudiologos.cs" />
+    <Compile Include="Scripts\DB\FormaDePagamento.cs" />
+    <Compile Include="Scripts\DB\Funcionarios.cs" />
+    <Compile Include="Scripts\DB\FuncionarioTriagem.cs" />
+    <Compile Include="Scripts\DB\HistoricoVersoes.cs" />
+    <Compile Include="Scripts\DB\Historico_Consultas.cs" />
+    <Compile Include="Scripts\DB\Historico_Procedimento.cs" />
+    <Compile Include="Scripts\DB\Historico_ProcedimentosLab.cs" />
+    <Compile Include="Scripts\DB\ListaEspera.cs" />
+    <Compile Include="Scripts\DB\Ausentes.cs" />
+    <Compile Include="Scripts\DB\ListaEspera_Agendamento.cs" />
+    <Compile Include="Scripts\DB\ListaEspera_Especializacao.cs" />
+    <Compile Include="Scripts\DB\ListaEspera_Exames.cs" />
+    <Compile Include="Scripts\DB\ListaEspera_Funcionario.cs" />
+    <Compile Include="Scripts\DB\MedicoEspecializacoes.cs" />
+    <Compile Include="Scripts\DB\Medicos.cs" />
+    <Compile Include="Scripts\DB\Nutricionistas.cs" />
+    <Compile Include="Scripts\DB\PacienteProcedimentos.cs" />
+    <Compile Include="Scripts\DB\Pacientes.cs" />
+    <Compile Include="Scripts\DB\Paciente_Sala.cs" />
+    <Compile Include="Scripts\DB\Pagamentos.cs" />
+    <Compile Include="Scripts\DB\Pessoas.cs" />
+    <Compile Include="Scripts\DB\ProcedimentoConvenio.cs" />
+    <Compile Include="Scripts\DB\Procedimento_Medico.cs" />
+    <Compile Include="Scripts\DB\Procedimentos.cs" />
+    <Compile Include="Scripts\DB\ProcedimentosLab.cs" />
+    <Compile Include="Scripts\DB\ProcedimentosLab_FormaPagamento.cs" />
+    <Compile Include="Scripts\DB\Procedimento_FormaPagamentos.cs" />
+    <Compile Include="Scripts\DB\Prontuarios.cs" />
+    <Compile Include="Scripts\DB\ProntuariosText.cs" />
+    <Compile Include="Scripts\DB\Psicologos.cs" />
+    <Compile Include="Scripts\DB\Recepcionista.cs" />
+    <Compile Include="Scripts\DB\Salas.cs" />
+    <Compile Include="Scripts\DB\SQLOperations.cs" />
+    <Compile Include="Scripts\DB\Tecnico_Enfermagem.cs" />
+    <Compile Include="Scripts\DB\Template.cs" />
+    <Compile Include="Scripts\DB\Tempo_Retorno.cs" />
+    <Compile Include="Scripts\DB\TempPacientes.cs" />
+    <Compile Include="Scripts\DB\TipoProcedimento.cs" />
+    <Compile Include="Scripts\Entities\IFormaPagamento.cs" />
+    <Compile Include="Scripts\Entities\IHistoricoConsulta.cs" />
+    <Compile Include="Scripts\Entities\_Asos.cs" />
+    <Compile Include="Scripts\Entities\_Consulta_FormaPagamento.cs" />
+    <Compile Include="Scripts\Entities\_Empresa.cs" />
+    <Compile Include="Scripts\Entities\_HistoricoVersoes.cs" />
+    <Compile Include="Scripts\Entities\_ProcedimentosLab_FormaDePagamento.cs" />
+    <Compile Include="Scripts\Entities\_Procedimento_FormaDePagamentos.cs" />
+    <Compile Include="Scripts\ErrorCodes.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\ErrorHandler.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\ES.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\FileDownloader.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\ImageH.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\MicrosoftWord\DocumentElements\_HorizontalLine.cs" />
+    <Compile Include="Scripts\MicrosoftWord\DocumentElements\_Paragraph.cs" />
+    <Compile Include="Scripts\MicrosoftWord\DocumentElements\_Table.cs" />
+    <Compile Include="Scripts\MicrosoftWord\Other\ConditionalFormatting.cs" />
+    <Compile Include="Scripts\MicrosoftWord\Styles\FontStyle.cs" />
+    <Compile Include="Scripts\MicrosoftWord\Styles\ParagraphStyle.cs" />
+    <Compile Include="Scripts\MicrosoftWord\Styles\TextStyle.cs" />
+    <Compile Include="Scripts\MicrosoftWord\WordDocument.cs" />
+    <Compile Include="Scripts\MysqlH.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\Orçamento.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\RegexH.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\TimedEvent.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Scripts\WindowsSO.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="UserControls\Anexo.xaml.cs">
+      <DependentUpon>Anexo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Campo.xaml.cs">
+      <DependentUpon>Campo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ColunaEncaminhamentos.xaml.cs">
+      <DependentUpon>ColunaEncaminhamentos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Endereco.xaml.cs">
+      <DependentUpon>Endereco.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Especializacao.xaml.cs">
+      <DependentUpon>Especializacao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\InformacoesPessoais.xaml.cs">
+      <DependentUpon>InformacoesPessoais.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LinhaAgendamento.xaml.cs">
+      <DependentUpon>LinhaAgendamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LinhaEncaminhados.xaml.cs">
+      <DependentUpon>LinhaEncaminhados.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LinhaEncaminhamentos.xaml.cs">
+      <DependentUpon>LinhaEncaminhamentos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SalaMedico.xaml.cs">
+      <DependentUpon>SalaMedico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SalaTecnico.xaml.cs">
+      <DependentUpon>SalaTecnico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SingleLineField.xaml.cs">
+      <DependentUpon>SingleLineField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddConvenio.xaml.cs">
+      <DependentUpon>AddConvenio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddConvenioProcedimento.xaml.cs">
+      <DependentUpon>AddConvenioProcedimento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddProcedimento.xaml.cs">
+      <DependentUpon>AddProcedimento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddTipoProcedimento.xaml.cs">
+      <DependentUpon>AddTipoProcedimento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdicionarConsulta.xaml.cs">
+      <DependentUpon>AdicionarConsulta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdicionarProcedimentoLab.xaml.cs">
+      <DependentUpon>AdicionarProcedimentoLab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AlertaASO.xaml.cs">
+      <DependentUpon>AlertaASO.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CadastrarEmpresa.xaml.cs">
+      <DependentUpon>CadastrarEmpresa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CadastrarPaciente.xaml.cs">
+      <DependentUpon>CadastrarPaciente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CadastroClienteParcial.xaml.cs">
+      <DependentUpon>CadastroClienteParcial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CadastroFuncionario.xaml.cs">
+      <DependentUpon>CadastroFuncionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ConfigurationsLogin.xaml.cs">
+      <DependentUpon>ConfigurationsLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CriarEspecializacao.xaml.cs">
+      <DependentUpon>CriarEspecializacao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CriarProcedimentoLab.xaml.cs">
+      <DependentUpon>CriarProcedimentoLab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EditarAtendimento.xaml.cs">
+      <DependentUpon>EditarAtendimento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddProcedimentoLabPaciente.xaml.cs">
+      <DependentUpon>AddProcedimentoLabPaciente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EditarHistorico.xaml.cs">
+      <DependentUpon>EditarHistorico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EncaminharLab.xaml.cs">
+      <DependentUpon>EncaminharLab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherCadastroParcial.xaml.cs">
+      <DependentUpon>EscolherCadastroParcial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherConvenio.xaml.cs">
+      <DependentUpon>EscolherConvenio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherConvenio2.xaml.cs">
+      <DependentUpon>EscolherConvenio2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherEspecializacao.xaml.cs">
+      <DependentUpon>EscolherEspecializacao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherFuncionario.xaml.cs">
+      <DependentUpon>EscolherFuncionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherHorario.xaml.cs">
+      <DependentUpon>EscolherHorario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherMedico.xaml.cs">
+      <DependentUpon>EscolherMedico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherNaoMedico.xaml.cs">
+      <DependentUpon>EscolherNaoMedico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherProcedimento.xaml.cs">
+      <DependentUpon>EscolherProcedimento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherSala.xaml.cs">
+      <DependentUpon>EscolherSala.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EscolherTipoProntuário.xaml.cs">
+      <DependentUpon>EscolherTipoProntuário.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\LembrarEm.xaml.cs">
+      <DependentUpon>LembrarEm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ListaEsperaMedico.xaml.cs">
+      <DependentUpon>ListaEsperaMedico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ObterTexto.xaml.cs">
+      <DependentUpon>ObterTexto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\PagarConsulta.xaml.cs">
+      <DependentUpon>PagarConsulta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\PesquisarAgenda.xaml.cs">
+      <DependentUpon>PesquisarAgenda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ProcedimentoConvenios.xaml.cs">
+      <DependentUpon>ProcedimentoConvenios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Prontuario.xaml.cs">
+      <DependentUpon>Prontuario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\VisualizarAgendamento.xaml.cs">
+      <DependentUpon>VisualizarAgendamento.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\AgendarConsulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\BlankPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ConveniosAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DetalhesConsultas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Encaminhamentos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Encaminhar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EncaminharExames.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EscolherEmpresa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\FazerOrcamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\FinalizarPaciente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Funcionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\HistoricoAsos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\HistoricoConsultas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\HistoricoProcsAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\HistoricoProcLab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ListaEspera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ListaEsperaGeral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PesquisaAtendidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PesquisaPessoas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PesquisarProntuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PacientesLab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ProcedimentosAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ProcedimentosLabAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RegistroFuncionarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RegistroPacientes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ValoresPorConsulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Anexo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Campo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ColunaEncaminhamentos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Endereco.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\Especializacao.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\InformacoesPessoais.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\LinhaAgendamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\LinhaEncaminhados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\LinhaEncaminhamentos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\SalaMedico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\SalaTecnico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\SingleLineField.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddConvenio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddConvenioProcedimento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddProcedimento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddTipoProcedimento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdicionarConsulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdicionarProcedimentoLab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AlertaASO.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CadastrarEmpresa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CadastrarPaciente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CadastroClienteParcial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CadastroFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ConfigurationsLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CriarEspecializacao.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CriarProcedimentoLab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EditarAtendimento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddProcedimentoLabPaciente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EditarHistorico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EncaminharLab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherCadastroParcial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherConvenio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherConvenio2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherEspecializacao.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherHorario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherMedico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherNaoMedico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherProcedimento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherSala.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EscolherTipoProntuário.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\LembrarEm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ListaEsperaMedico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ObterTexto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\PagarConsulta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\PesquisarAgenda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ProcedimentoConvenios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Prontuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\VisualizarAgendamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\Encaminhamentos.xaml.cs">
+      <DependentUpon>Encaminhamentos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Modelo Prontuário.docx" />
+    <Resource Include="Resources\Prontuario.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\red-x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Especializações.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\gear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Untitled.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,24 @@
+﻿[2020/6/13 11:50]: MySql.Data.MySqlClient.MySqlException: Duplicate entry '033.380.952-10' for key 'PRIMARY'
+[2020/6/13 11:50]: Stack Trace:    at WPFClinica.Scripts.DB.SQLOperations.SQL(String title, Action`1 action, Action`1 onError, Boolean tryAgain) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\SQLOperations.cs:line 38
+   at WPFClinica.Scripts.DB.SQLOperations.NonQuery(String title, Func`2 action, Action`1 onError, Boolean tryAgain) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\SQLOperations.cs:line 70
+   at WPFClinica.Scripts.DB.Medicos.Insert(String cpf, String crm, Double porcentagem) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\Medicos.cs:line 38
+   at WPFClinica.Scripts.DB.Medicos.TryInsert(String cpf, String crm, Double porcentagem) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\Medicos.cs:line 53
+   at WPFClinica.Scripts.DB.Medicos.TryInsert(String cpf, String crm, String porcentagem) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\Medicos.cs:line 48
+   at WPFClinica.Windows.CadastroFuncionario.CadastrarB_Click(Object sender, RoutedEventArgs e) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Windows\CadastroFuncionario.xaml.cs:line 325.
+[2020/6/13 11:54]: MySql.Data.MySqlClient.MySqlException: Duplicate entry '033.380.952-10' for key 'PRIMARY'
+[2020/6/13 11:54]: Stack Trace:    at WPFClinica.Scripts.DB.SQLOperations.SQL(String title, Action`1 action, Action`1 onError, Boolean tryAgain) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\SQLOperations.cs:line 38
+   at WPFClinica.Scripts.DB.SQLOperations.NonQuery(String title, MySqlCommand c, Action`1 onError, Boolean tryAgain) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\SQLOperations.cs:line 64
+   at WPFClinica.Scripts.DB.Template.NonQuery(String title, MySqlCommand c) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\Template.cs:line 32
+   at WPFClinica.Scripts.AbstractClasses.Profissoes.Insert(String cpf) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\AbstractClasses\Profissoes.cs:line 27
+   at WPFClinica.Scripts.AbstractClasses.Profissoes.TryInsert(String cpf) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\AbstractClasses\Profissoes.cs:line 33
+   at WPFClinica.Scripts.AbstractClasses.Profissoes.Update(Boolean isProfissional, String cpf) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\AbstractClasses\Profissoes.cs:line 57
+   at WPFClinica.Windows.CadastroFuncionario.CadastrarB_Click(Object sender, RoutedEventArgs e) in C:\Users\timel\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Windows\CadastroFuncionario.xaml.cs:line 333.
+[2020/7/6 11:43]: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2020/7/6 11:43]: Stack Trace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at WPFClinica.Windows.EncaminharLab.EncaminharB_Click(Object sender, RoutedEventArgs e) in C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Windows\EncaminharLab.xaml.cs:line 138.
+[2020/7/6 13:51]: System.Exception: Identificador não encontrado.
+[2020/7/6 13:51]: Stack Trace:    at WPFClinica.Scripts.DB.Historico_ProcedimentosLab.GetLastID(String paciente, Int32 procedimento, Int32 convenio) in C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\Historico_ProcedimentosLab.cs:line 221
+   at WPFClinica.Scripts.DB.Historico_ProcedimentosLab.Update_RealizadoEm(String paciente, Int32 procedimento, Int32 convenio, Nullable`1 realizadoEm) in C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Scripts\DB\Historico_ProcedimentosLab.cs:line 169
+   at WPFClinica.Pages.PacientesLab.EditarB_Click(Object sender, RoutedEventArgs e) in C:\Users\DESKTOP\Documents\Trabalho\Clinica\WPFClinica\WPFClinica\Pages\PacientesLab.xaml.cs:line 177.

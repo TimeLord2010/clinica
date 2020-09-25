@@ -1,0 +1,28 @@
+﻿<Page x:Class="WPFClinica.Pages.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFClinica.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Login">
+    <Page.Resources>
+        <ResourceDictionary Source="/Dictionary1.xaml"/>
+    </Page.Resources>
+    <Grid Background="White">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="CPF" Foreground="Gray"/>
+            <TextBox Width="150" Name="CPFTB" FontSize="15" TextChanged="CPFTB_TextChanged"></TextBox>
+            <TextBlock Text="Senha" Margin="0,20,0,0" Foreground="Gray"></TextBlock>
+            <PasswordBox Width="150" Name="SenhaPB" FontSize="15" KeyDown="SenhaPB_KeyDown"></PasswordBox>
+            <CheckBox Margin="0,20,0,0" Name="LembrarCPFChB">Lembrar meu CPF</CheckBox>
+            <Grid Margin="0,10,0,0">
+                <Image Source="/Resources/gear.png" Width="40" HorizontalAlignment="Left" Cursor="Hand" Name="GearI" MouseLeftButtonDown="GearI_MouseLeftButtonDown"></Image>
+                <Button Style="{StaticResource GreenButton}" Name="LoginB" HorizontalAlignment="Right" VerticalAlignment="Center" Click="LoginB_Click">Login</Button>
+            </Grid>
+            <Separator Margin="0,10,0,0"></Separator>
+            <Button Content="Encaminhamentos" FontSize="15" Margin="0,20,0,0" Name="EncaminhamentosB" Click="EncaminhamentosB_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

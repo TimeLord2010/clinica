@@ -1,0 +1,56 @@
+﻿<Page x:Class="WPFClinica.Pages.HistoricoAsos"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFClinica.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" Title="HistoricoAsos">
+    <Page.Resources>
+        <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource {x:Type TextBlock}}">
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+        </Style>
+        <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource {x:Type TextBox}}">
+            <Setter Property="Margin" Value="5,22,5,5"></Setter>
+        </Style>
+    </Page.Resources>
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <TextBlock>Paciente</TextBlock>
+            <TextBox x:Name="NomePacienteTB"></TextBox>
+        </Grid>
+        <Grid Grid.Column="1">
+            <TextBlock>Empresa</TextBlock>
+            <TextBox x:Name="NomeEmpresaTB"></TextBox>
+        </Grid>
+        <Grid Grid.Column="2">
+            <TextBlock>CNPJ</TextBlock>
+            <TextBox x:Name="CNPJ_TB"></TextBox>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock>Inicio</TextBlock>
+            <TextBox x:Name="InicioTB"></TextBox>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <TextBlock>Fim</TextBlock>
+            <TextBox x:Name="FimTB"></TextBox>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="PesquisarB" Click="PesquisarB_Click">Pesquisar</Button>
+        </Grid>
+        <Grid Grid.Row="2" Grid.ColumnSpan="3" Margin="5">
+            <DataGrid x:Name="ASO_DG"></DataGrid>
+        </Grid>
+    </Grid>
+</Page>

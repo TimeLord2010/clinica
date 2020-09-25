@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFClinica.Windows.CadastroClienteParcial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClinica.Windows"
+        mc:Ignorable="d"
+        Title="Cadastro Cliente: Parcial" Height="180" Width="400">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,50">
+            <TextBlock Foreground="Gray">Nome</TextBlock>
+            <TextBox FontSize="15" Name="NomeTB"></TextBox>
+            <TextBlock Foreground="Gray" Margin="0,10,0,0">Contato</TextBlock>
+            <TextBox FontSize="15" Name="ContatoTB"></TextBox>
+        </StackPanel>
+        <Button VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" FontSize="15" Padding="3" Name="Cadastrar" Click="Cadastrar_Click">Cadastrar parcialmente</Button>
+    </Grid>
+</Window>
